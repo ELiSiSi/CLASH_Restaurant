@@ -31,7 +31,6 @@ body {
   }
 }
 
-
 .container {
   width: 95%;
   margin: auto;
@@ -102,17 +101,15 @@ body {
 /* start  profile */
 
 .profile {
-   text-align: center;
+  text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   direction: rtl;
-   width: 100%;
+  width: 100%;
   font-weight: 900;
   color: #ffffff;
- 
-
 }
- 
+
 .profile .image img {
   width: 200px;
   border-radius: 50%;
@@ -124,17 +121,15 @@ body {
   padding-top: 20px;
   font-size: 25px;
   line-height: 0.1;
-     font-weight: 900;
-    color: #ffffff;
-
+  font-weight: 900;
+  color: #ffffff;
 }
 @media (max-width: 500px) {
   .profile .text p {
     padding-top: 10px;
     font-size: 18px;
     line-height: 0.1;
-        display: none;
-
+    display: none;
   }
   .profile .image img {
     width: 130px;
@@ -153,38 +148,32 @@ body {
     font-size: 30px;
     font-weight: 900;
     line-height: 30px;
-        color: #ffffff;
-            display: none;
-
-
+    color: #ffffff;
+    display: none;
   }
 }
 .profile .icon {
   padding-top: 20px;
   word-spacing: 15px;
   margin-bottom: -10px;
-  
-  
 }
- 
 
 .profile .icon i {
   font-size: 30px;
   color: #fff;
 }
 @media (max-width: 500px) {
-  body{
-height: 150%;
-
+  body {
+    height: 200%;
   }
   .profile .icon {
     margin-bottom: 40px;
- margin-top: 150px;
+    margin-top: 150px;
   }
   .profile .icon i {
-  font-size: 30px;
-     color: #ffffff;
-}
+    font-size: 30px;
+    color: #ffffff;
+  }
 }
 .profile .icon i:hover {
   font-size: 40px;
@@ -195,13 +184,12 @@ height: 150%;
 /* start   contant */
 /* start   contant */
 
-.contant  {
+.contant {
   padding-top: 50px;
-   text-align: center;
+  text-align: center;
   padding-bottom: 48px;
- }
+}
 .contant .container {
-
   width: 70%;
 }
 .contant a {
@@ -237,7 +225,7 @@ height: 150%;
   scale: 1.1;
   background-color: #ffffff;
   color: #000;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   border: #000000 2px solid;
@@ -248,25 +236,21 @@ height: 150%;
   color: #000000;
 }
 .contant .col:hover a {
-     color: #000000;
- }
-
-
- 
+  color: #000000;
+}
 
 @media (max-width: 500px) {
   .contant {
     padding-left: 0px;
     width: 350px;
-width: 100%;
- 
+    width: 100%;
+
     text-align: center;
     padding-bottom: 150px;
   }
   .contant .container {
-
-  width: 90%;
-}
+    width: 90%;
+  }
 
   .contant .col {
     height: 50px;
@@ -275,7 +259,7 @@ width: 100%;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
-   }
+  }
 
   .contant a {
     font-size: 15px;
