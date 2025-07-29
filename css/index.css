@@ -164,7 +164,7 @@ body {
 }
 @media (max-width: 500px) {
   body {
-    height: 800px;
+    height: 700px;
   }
   .profile .icon {
     margin-bottom: 40px;
