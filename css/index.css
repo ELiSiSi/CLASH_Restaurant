@@ -22,6 +22,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'DroidKufi';
+  background-color: #ce0000;
 }
 
 @media (max-width: 768px) {
