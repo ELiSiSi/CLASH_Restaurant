@@ -28,7 +28,9 @@ body {
 @media (max-width: 768px) {
   body {
     background-image: url('../image/background_phone.jpeg');
-  }
+     
+   }
+
 }
 
 .container {
@@ -171,7 +173,8 @@ body {
     margin-top: 150px;
   }
   .profile .icon i {
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 900;
     color: #ffffff;
   }
 }
@@ -239,6 +242,17 @@ body {
   color: #000000;
 }
 
+
+.time {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+.time .container {
+  text-align: center;
+}
+
 @media (max-width: 500px) {
   .contant {
     padding-left: 0px;
@@ -278,14 +292,19 @@ body {
     display: none;
     color: var(--secondary-color);
   }
-}
 
-.time {
+  .offers{
+
+  margin-bottom: 100px;
+
+
+  }
+
+  .time {
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
+ }
 }
 
-.time .container {
-  text-align: center;
-}
+ 
