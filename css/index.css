@@ -28,9 +28,7 @@ body {
 @media (max-width: 768px) {
   body {
     background-image: url('../image/background_phone.jpeg');
-     
-   }
-
+  }
 }
 
 .container {
@@ -242,7 +240,6 @@ body {
   color: #000000;
 }
 
-
 .time {
   font-size: 30px;
   font-weight: 700;
@@ -260,7 +257,7 @@ body {
     width: 100%;
 
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 70px;
   }
   .contant .container {
     width: 90%;
@@ -293,18 +290,13 @@ body {
     color: var(--secondary-color);
   }
 
-  .offers{
-
-  margin-bottom: 100px;
-
-
+  .offers {
+    margin-bottom: 0px;
   }
 
   .time {
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 100px;
- }
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
 }
-
- 
