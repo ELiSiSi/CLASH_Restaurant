@@ -290,13 +290,8 @@ body {
     color: var(--secondary-color);
   }
 
-  .offers {
-    margin-bottom: 0px;
-  }
-
+ 
   .time {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 0px;
+      margin-bottom: 0px;
   }
 }
