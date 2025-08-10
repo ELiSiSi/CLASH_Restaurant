@@ -42,6 +42,9 @@ body {
 .header {
   background-color: #fff;
   width: 100%;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header .container {
@@ -74,28 +77,36 @@ body {
 
 .header .container .name {
   color: var(--main-color);
+  padding: 0;
+  margin: 0;
 }
 
 .header .container .name span {
   color: var(--main-color);
+    padding: 0;
+  margin: 0;
 }
 
 @media (max-width: 768px) {
   .header {
     width: 100%;
-    height: 40px;
+    height: 30px;
   }
 
   .header img {
     width: 50px;
-    margin-bottom: 20px;
+   
   }
 
   .header .container .name {
     font-size: 10px;
   }
 }
-
+.header .container .name h1 {
+  color: var(--main-color);
+    padding: 0;
+  margin: 0;
+}
 /* start  profile */
 /* start  profile */
 /* start  profile */
