@@ -531,7 +531,7 @@ body::before {
   font-weight: 900;
   position: relative;
   box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
-  margin-top: 25px;
+
   border-radius: 15px;
 }
 
@@ -682,6 +682,8 @@ body::before {
   border: 5px solid rgba(255, 215, 0, 0.6);
   box-shadow: 0 0 35px rgba(255, 215, 0, 0.9);
   animation: pulse-glow 3s infinite;
+  filter: drop-shadow(0 0 15px #ffd700);
+  margin-top: 50PX;
 }
 
 @keyframes pulse-glow {
