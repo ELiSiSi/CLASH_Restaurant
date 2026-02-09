@@ -605,15 +605,15 @@ body::before {
 
 @media (max-width: 768px) {
   .header {
-    margin-top: 20px;
+    margin-top: -30px;
     padding: 10px 0;
-    height: 100px;
+    height: 90px;
   }
 
   .header::before {
     font-size: 20px;
     padding: 5px 15px;
-    top: 5px;
+    top: 60px;
   }
 
   .header img {
@@ -629,12 +629,11 @@ body::before {
 .profile {
   text-align: center;
   color: #ffffff;
-  padding-top: 30px;
+
   padding-bottom: 20px;
   position: relative;
-  background: rgba(0, 0, 0, 0.15);
-  border-radius: 20px;
-  margin-top: 20px;
+   border-radius: 20px;
+  margin-top: -50px;
   border: 2px solid rgba(255, 215, 0, 0.3);
 }
 
@@ -873,5 +872,23 @@ body::before {
 
   .contant .col:hover span {
     display: none;
+  }
+}
+body {
+  background-image: url('../image/background_laptop.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  font-family: 'DroidKufi';
+  background-color: #ce0000;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url('../image/background_phone.jpeg');
   }
 }
